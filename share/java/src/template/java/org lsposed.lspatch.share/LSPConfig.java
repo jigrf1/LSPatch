@@ -4,21 +4,13 @@ public class LSPConfig {
 
     public static final LSPConfig instance;
 
-    public int ;
-    public int ;
-    public String ;
-    public int ;
-    public String l;
+    public int API_CODE;
+    public int VERSION_CODE;
+    public String VERSION_NAME;
+    public int CORE_VERSION_CODE;
+    public String CORE_VERSION_NAME;
 
     private LSPConfig() {
     }
 
-    static {
-        instance = new LSPConfig();
-        instance. = ${apiCode};
-        instance. = ${verCode};
-        instance. = "${verName}";
-        instance. = ${coreVerCode};
-        instance. = "${coreVerName}";
-    }
 }
