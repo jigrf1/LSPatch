@@ -13,4 +13,12 @@ public class LSPConfig {
     private LSPConfig() {
     }
 
+    static {
+        instance = new LSPConfig();
+        instance.API_CODE = ${apiCode};
+        instance.VERSION_CODE = ${verCode};
+        instance.VERSION_NAME = "${verName}";
+        instance.CORE_VERSION_CODE = ${coreVerCode};
+        instance.CORE_VERSION_NAME = "${coreVerName}";
+    }
 }
